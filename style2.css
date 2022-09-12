@@ -28,6 +28,7 @@
   }
 
   /* Sets the distance from the top and the right side for the navbar links.*/
+
   .header-nav{
     padding-top:5px;
     margin-right:100px;
@@ -108,9 +109,9 @@ color:aliceblue;
  }
 
  aside{
-    position:absolute;
+    position:relative;
     left:1650px;
-    bottom:585px;
+    bottom:1000px;
     
 
  }
@@ -140,7 +141,6 @@ text-transform:uppercase;
     margin-top: 15px ;
     margin-left:15px;
     margin-right:15px;
-    height:1000px;
     line-height:30px;
     background-image:linear-gradient(to bottom right,rgb(181, 233, 230),rgba(153, 153, 241, 0.678));
 }
@@ -162,12 +162,50 @@ padding: 15px;
 
  }
 
- .figure img{
-    max-height:50px;
-    max-width:50px;
-    position:relative;
-    left:100px;
-    top:-5px;
+.card-imgs{
+width:500px;
+}
 
- }
+.card-header{
+   position:relative;
+   margin-top:-20px;
+  }
+
+.code-card .card-header{
+border-radius:8px;
+transition: all 0.5s ease-in-out;
+}
+
+.code-card:hover,
+.code-card:hover .card-header{
+   box-shadow: inset 0px 0px 8px rgb(181, 233, 230), 0 0 15px rgb(83, 137, 236);
+}
+
+
+
+
+
+@media only screen and (max-width:992px) {
+ 
+}
+@media screen and (max-width:768px) {
+
+
+}
+
+
+
+@media screen and (max-width:530px) {
+
+
+}
+
+
+
+@media screen and (max-width:480px) {
+
+
+}
+   
+
  
