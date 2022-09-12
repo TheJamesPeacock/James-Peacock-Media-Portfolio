@@ -10,11 +10,9 @@
     padding: 20px;
     padding-bottom:5px;
     background-color:black;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    color: white;
+    color:white;
     text-align: center;
+    
     
   }
   /* Sets the font size and the layout of the first heading "James Peacock" of the page */
@@ -26,7 +24,7 @@
 
   /* Sets the span in the header "Peacock" to a different color just for some more pop/variation */
   .h1-span{
-    color:red;
+    color:rgb(83, 137, 236);
   }
 
   /* Sets the distance from the top and the right side for the navbar links.*/
@@ -42,11 +40,14 @@
 
   .header nav ul{
     list-style-type: none;
+    
  }
 
- .header nav ul li{
+ .header nav li{
     display:inline-block;
+    margin-top:5px;
     margin-left:50px;
+    font-size:20px;
  }
 
  .header nav a{
@@ -63,24 +64,29 @@ color:aliceblue;
   
  }
 
- main{
-  
- }
 
-.about-me{
+
+section{
   background-color: rgb(216, 213, 213);
-  max-width: 1500px;
-  height: 400px;
-  margin-top:50px;
-  padding-bottom:30px;
-  margin-left:200px;
-  margin-right:200px;
-  flex-wrap: wrap;
-  border-width: 50px;
-  border-color: red;
-  position:relative;
-  top:48px;
   
+  height: 500px;
+  width: 2000px;
+  margin-top:50px;
+  font-size: 20px;
+  
+
+}
+
+  img{
+    max-width: 100%;
+    max-height: 100%;
+
+  }
+.about-img{
+  max-width:300px;
+  max-height:200px;
+  margin-left:500px
+
 
 }
 
@@ -92,12 +98,18 @@ text-transform:uppercase;
 }
 
 .about-me p{
-  margin-top: 150px;
+  background-color:rgb(104, 103, 103);
+  color:white;
+  max-width: 700px;
+  height:300px;
   display:flex;
   flex-wrap:wrap;
   flex:1 0 200px;
   text-align:center;
   font-size: 18px;
+  position:relative;
+  left:1250px;
+  bottom:100px
 }
 
 section img{
@@ -107,14 +119,12 @@ section img{
 
 aside{
     background-color: rgb(216, 213, 213);
-    margin-top:50px;
+    margin-top:100px;
     padding-bottom:30px;
     flex-wrap: wrap;
   width: 200px;
   height:600px;
-  position:relative;
-  right:200px;
-  bottom:400px
+  
   }
 
   aside ul li{
@@ -131,6 +141,11 @@ background-color: rgb(216, 213, 213);
 
 
 
+
+}
+
+.contact{
+height:500px;
 
 }
 
